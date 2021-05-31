@@ -22,4 +22,4 @@
                      SF-VALUE      "Perimeter Outline Radius"      "5"
                      )
 
-(script-fu-menu-register "draw-a-rect" "<Image>/File/Create")
+(script-fu-menu-register "draw-a-rect" "<Image>/Edit/Create")
