@@ -27,4 +27,4 @@
                      SF-VALUE      "Perimeter Outline Radius"      "5"
                      )
 
-(script-fu-menu-register "draw-an-ellipse" "<Image>/File/Create")
+(script-fu-menu-register "draw-an-ellipse" "<Image>/Edit/Create")
