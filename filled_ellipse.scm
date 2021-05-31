@@ -17,7 +17,7 @@
 
 (script-fu-register "draw-an-ellipse"
                     "Draw Ellipse"
-                     "Creates a filled ellipse"
+                     "Creates a hollow ellipse"
                      "Lorena"
                      "Copyright 2021, Lorena"
                      "30 May 2021"
