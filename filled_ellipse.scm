@@ -5,7 +5,6 @@
  (define width (- (car (cdr (cdr (cdr (gimp-selection-bounds image))))) x))
  (define height (- (car (cdr (cdr (cdr (cdr (gimp-selection-bounds image)))))) y))
  (gimp-context-push)
- ;(gimp-context-set-foreground color)
  (gimp-image-select-ellipse image 2 x y width height)
  (gimp-selection-border image radius)
  (gimp-drawable-edit-fill drawable 0)
@@ -25,11 +24,7 @@
                      "" 
                      SF-IMAGE      "Image"                          1
                      SF-DRAWABLE   "Layer"                          1
-                     ;SF-COLOR      "Color" '(255 255 255)
                      SF-VALUE      "Perimeter Outline Radius"      "5"
-                     ;SF-VALUE      "Y"      "1"
-                     ;SF-ADJUSTMENT "Width"  '(10 1 1000 1 5 2 0)
-                     ;SF-ADJUSTMENT "Height" '(10 1 1000 1 5 2 0)
                      )
 
 (script-fu-menu-register "draw-an-ellipse" "<Image>/File/Create")
