@@ -1,5 +1,5 @@
-# Hollow Circle
-A script for making a hollow circle in GIMP, which normally is kind of a pain. 
+# Hollow Circle and Rectangle
+A script for making a hollow circle and/or rectangle in GIMP, which normally is kind of a pain. 
 
 # Why?
 Because I saw a post making fun of GIMP users because it's not always apparent to new users of GIMP as to how one would make a hollow circle, so I decided to make a little script that automates the process.
