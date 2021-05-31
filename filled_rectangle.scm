@@ -12,7 +12,7 @@
 
 (script-fu-register "draw-a-rect"
                     "Draw Rectangle"
-                     "Creates a hollow ellipse"
+                     "Creates a hollow rectangle"
                      "Lorena"
                      "Copyright 2021, Lorena"
                      "30 May 2021"
